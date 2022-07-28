@@ -9,7 +9,7 @@ Altura x altura = 1,75 x 1,75 = 3.0625 <br/>
 IMC = 83 divididos por 3,0625 = 27,10 <br/>
 O resultado de 27,10 de IMC indica que João está acima do peso desejado (sobrepeso).
 
-## Classificação do IMC:
+## Classificação do IMC
 
 <li>Menor que 18,5 - Abaixo do peso</li>
 <li>Entre 18,5 e 24,9 - Peso normal</li>
