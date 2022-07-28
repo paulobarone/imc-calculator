@@ -1,0 +1,75 @@
+:root {
+  --cyan: #047480;
+  --gray: #757575;
+  --orange: #e25416;
+}
+
+body, button, textarea, ::placeholder {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+form {
+  width: 80vw;
+  max-width: 500px;
+  background: var(--cyan);
+  padding: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+.title {
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.description {
+  margin-bottom: 20px;
+}
+
+.input {
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  background: white;
+  width: 50%;
+}
+
+.input-container {
+  display: flex;
+  gap: 30px;
+}
+
+.input::placeholder {
+  color: var(--gray);
+}
+
+.button {
+  padding: 10px 0;
+  width: 50%;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  background: var(--orange);
+  font-weight: 600;
+  margin-top: 16px;
+  cursor: pointer;
+}
+
+.result {
+  display: none;
+  width: 100%;
+  margin-top: 24px;
+}
